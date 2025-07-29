@@ -1,7 +1,7 @@
 services:
   - type: web
     name: chat-app
-    env: java
+    runtime: java
     buildCommand: chmod +x mvnw && ./mvnw clean install
     startCommand: java -jar target/*.jar
     plan: free
