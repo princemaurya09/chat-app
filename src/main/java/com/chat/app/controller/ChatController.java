@@ -23,5 +23,9 @@ public class ChatController {
 public String home() {
     return "chat";
 }
+@GetMapping("/test")
+public String testPage() {
+    return "test";
+}
 
 }
